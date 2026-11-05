@@ -1,25 +1,84 @@
-Cara Menjalankan Dashboard
+# Proyek Analisis Data: Bike Sharing Dataset
 
-1. Persiapan Environment
+## Deskripsi Proyek
 
-Pastikan Python sudah terinstal pada komputer.
+Proyek ini merupakan analisis data penyewaan sepeda menggunakan **Bike Sharing Dataset** pada periode 2011–2012.
 
-Buka terminal atau Command Prompt, kemudian masuk ke direktori proyek.
+Analisis dilakukan untuk mengetahui pola penyewaan sepeda berdasarkan jam, hari kerja, bulan, dan kondisi cuaca. Hasil analisis kemudian divisualisasikan melalui dashboard interaktif menggunakan Streamlit.
 
-2. Instalasi Library
+## Pertanyaan Bisnis
 
-Jalankan perintah berikut untuk menginstal seluruh library yang dibutuhkan:
+1. Bagaimana pola rata-rata penyewaan sepeda berdasarkan jam?
+2. Bagaimana perbandingan penyewaan sepeda pada hari kerja dan hari nonkerja?
+3. Bagaimana tren jumlah penyewaan sepeda setiap bulan?
+4. Bagaimana pengaruh kondisi cuaca terhadap jumlah penyewaan sepeda?
 
-py -m pip install -r requirements.txt
+## Struktur Folder
 
-3. Menjalankan Dashboard
+```text
+Bike-Sharing-Dashboard/
+├── Dashboard/
+│   ├── Dashboard.py
+│   ├── main_data.csv
+│   └── hour_data.csv
+├── day.csv
+├── hour.csv
+├── README.md
+└── requirements.txt
+```
 
-Setelah seluruh library berhasil diinstal, jalankan perintah berikut:
+## Cara Menjalankan Dashboard Secara Lokal
 
-py -m streamlit run dashboard/dashboard.py
+**1. Clone repository**
 
-4. Membuka Dashboard
+**2. Masuk ke folder proyek**
 
-Setelah aplikasi berhasil dijalankan, buka browser dan akses alamat berikut:
+**3. Instal library yang dibutuhkan**
+
+**4. Jalankan dashboard Streamlit**
+
+```bash
+python -m streamlit run Dashboard/Dashboard.py
+```
+
+**5. Buka dashboard**
+
+Setelah berhasil dijalankan, buka alamat berikut melalui browser:
 
 http://localhost:8501
+
+## Dashboard Online
+
+Dashboard dapat diakses secara online melalui Streamlit Community Cloud.
+
+**Link Dashboard:** wait
+
+
+## Fitur Dashboard
+
+- Filter data berdasarkan tahun.
+- Menampilkan total penyewaan sepeda.
+- Menampilkan rata-rata penyewaan harian.
+- Menampilkan jam penyewaan tersibuk.
+- Visualisasi penyewaan berdasarkan jam.
+- Perbandingan penyewaan hari kerja dan nonkerja.
+- Analisis tren penyewaan bulanan.
+- Analisis berdasarkan kondisi cuaca.
+- Highlight warna untuk menunjukkan nilai tertinggi dan terendah.
+
+## Dataset
+
+Dataset yang digunakan adalah Bike Sharing Dataset dengan periode 2011–2012.
+
+
+## Library yang Digunakan
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Streamlit
+pribadi.
+
+Untuk menjalankan analisis pada notebook, gunakan dataset asli `day.csv` dan `hour.csv`.
