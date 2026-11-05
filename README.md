@@ -80,5 +80,3 @@ Dataset yang digunakan adalah Bike Sharing Dataset dengan periode 2011–2012.
 - Seaborn
 - Streamlit
 pribadi.
-
-Untuk menjalankan analisis pada notebook, gunakan dataset asli `day.csv` dan `hour.csv`.
