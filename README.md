@@ -13,20 +13,6 @@ Analisis dilakukan untuk mengetahui pola penyewaan sepeda berdasarkan jam, hari 
 3. Bagaimana tren jumlah penyewaan sepeda setiap bulan?
 4. Bagaimana pengaruh kondisi cuaca terhadap jumlah penyewaan sepeda?
 
-## Struktur Folder
-
-```text
-Bike-Sharing-Dashboard/
-├── Dashboard/
-│   ├── Dashboard.py
-│   ├── main_data.csv
-│   └── hour_data.csv
-├── day.csv
-├── hour.csv
-├── README.md
-└── requirements.txt
-```
-
 ## Cara Menjalankan Dashboard Secara Lokal
 
 **1. Clone repository**
