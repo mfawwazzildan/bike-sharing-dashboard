@@ -1,0 +1,11 @@
+# Library untuk dashboard dan analisis data
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+
+# Library bawaan Python
+# os
+# zipfile
+# pathlib
