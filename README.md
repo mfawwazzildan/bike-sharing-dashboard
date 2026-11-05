@@ -51,7 +51,8 @@ http://localhost:8501
 
 Dashboard dapat diakses secara online melalui Streamlit Community Cloud.
 
-**Link Dashboard:** wait
+**Link Dashboard:**
+https://bike-sharing-dashboard-kyfjynzcqgvknbnzfngexi.streamlit.app/
 
 
 ## Fitur Dashboard
