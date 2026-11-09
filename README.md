@@ -1,28 +1,25 @@
-# Bike Sharing Dashboard
-
-## Setup Environment - Anaconda
-
-```bash
-conda create --name main-ds python=3.12
-conda activate main-ds
-git clone https://github.com/mfawwazzildan/bike-sharing-dashboard.git
-cd bike-sharing-dashboard
-pip install -r requirements.txt
-```
-
 ## Setup Environment - Shell/Terminal
 
+1. Ekstrak file ZIP submission.
+2. Buka folder `Submission_DS_Muhammad Fawwaz ZIldan` menggunakan VS Code.
+3. Buka terminal pada folder utama proyek.
+4. Instal library yang dibutuhkan:
+
 ```bash
-git clone https://github.com/mfawwazzildan/bike-sharing-dashboard.git
-cd bike-sharing-dashboard
 python -m pip install -r requirements.txt
 ```
 
 ## Run Streamlit App
 
+Jalankan perintah berikut dari folder utama submission:
+
 ```bash
 python -m streamlit run Dashboard/Dashboard.py
 ```
+
+Dashboard dapat diakses melalui:
+
+http://localhost:8501
 
 ## Dashboard Online
 
