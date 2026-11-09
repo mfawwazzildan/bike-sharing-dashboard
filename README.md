@@ -1,25 +1,38 @@
-## Setup Environment - Shell/Terminal
+# Bike Sharing Dashboard
 
-1. Ekstrak file ZIP submission.
-2. Buka folder `Submission_DS_Muhammad Fawwaz ZIldan` menggunakan VS Code.
-3. Buka terminal pada folder utama proyek.
-4. Instal library yang dibutuhkan:
+Ekstrak file ZIP submission, lalu buka terminal pada folder utama `Submission_DS_Muhammad Fawwaz ZIldan`.
+
+## Setup Environment - Anaconda
 
 ```bash
+conda create --name main-ds python=3.12
+conda activate main-ds
 python -m pip install -r requirements.txt
+```
+
+## Setup Environment - Shell/Terminal
+
+```bash
+python -m pip install pipenv
+pipenv --python 3.12
+pipenv install -r requirements.txt
 ```
 
 ## Run Streamlit App
 
-Jalankan perintah berikut dari folder utama submission:
+Jika menggunakan Anaconda:
 
 ```bash
 python -m streamlit run Dashboard/Dashboard.py
 ```
 
-Dashboard dapat diakses melalui:
+Jika menggunakan Shell/Terminal (Pipenv):
 
-http://localhost:8501
+```bash
+pipenv run python -m streamlit run Dashboard/Dashboard.py
+```
+
+Dashboard dapat diakses melalui http://localhost:8501.
 
 ## Dashboard Online
 
